@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>web layout</title>
+    <style type="text/css">
+    .container{
+        width: 1000px;
+        background-color: rgb(62, 207, 255);
+        margin: 0 auto;
+    }
+    .header{
+        width: 1000px;
+        height: 400px;
+        background-color: aquamarine;
+        background: url(https://images.tokopedia.net/img/WMkIgA/2021/6/15/c797e9a1-4357-48ff-bd80-6fee056e33ca.png) no-repeat fixed center;
+        background-position: top;
+    }
+    .navigation{
+        width: 1000px;
+        height: 40px;
+        border: 1px solid;
+        background-color: azure;
+    }
+    .sidebar{
+        width: 250px;
+        height: 285px;
+        float: left;
+        background-color: rgb(62, 207, 255);
+    }
+    .konten{
+        width: 750px;
+        height: 285px;
+        background-color: khaki;
+        float: right;
+        
+    }
+    .isi_konten{
+        padding: 5px;
+    }
+    .footer{
+        width: 1000px;
+        height: 20px;
+        background-color: peru;
+        clear: both;
+        text-align: center;
+    }
+    .clear{
+        clear: both;
+    }
+    .menu{
+        list-style: none;
+    }
+    .isimenu{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header"></div>
+    <div class="navigation">
+        <ul class="menu">
+            <li class="isimenu">
+                <a href="">Home</a>
+            </li>
+            <li class="isimenu">
+                <a href="">Profil</a>
+            </li>
+            <li class="isimenu">
+                <a href="">Kategori</a>
+            </li>
+            <li class="isimenu">
+                <a href="">Kontak</a>
+            </li>                        
+        </ul>
+    </div>
+    <div class="sidebar">
+        <h5 style="padding-left: 10px;">Artikel Terbaru</h5>
+        <ul>
+            <li>
+                Artikel 1
+            </li>
+            <li>
+                Artikel 2
+            </li>
+            <li>
+                Artikel 3
+            </li>                     
+        </ul>        
+    </div>
+    <div class="konten">
+        <p class="isi_konten">
+            Apa itu FYP merupakan istilah yang kerap digunakan anak muda pada media sosial. 
+            FYP adalah singkatan dari For You Page. Dalam kamus bahasa Inggris-bahasa Indonesia, arti for you page yakni halaman untuk anda. 
+            Apa itu FYP adalah istilah yang terbilang familiar dikalangan pengguna media sosial, khususnya TikTok. 
+            Apa itu FYP adalah halaman pertama yang dibuka pengguna saat mereka membuka aplikasi TikTok. 
+            Meski istilah FYP sangat populer dikalangan masyarakat dan anak milenial, namun masih ada sebagian orang yang belum memahami apa itu FYP.
+        </p>
+    </div>
+    <div class="footer">
+        copiright @ Fitra Novriadi
+    </div>
+</div>
+</body>
+</html>
